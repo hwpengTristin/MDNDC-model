@@ -11,9 +11,12 @@ CASIA_WebFace: We first pre-train the backbone network in CASIA_WebFace dataset 
 MDN network with DC fusion method: We first pre-train each backbone network in MS_Celeb_1M, VGGFace2 or CASIA_WebFace dataset with softmax loss, and then fine-tune each network in CASIA NIR-VIS 2.0 dataset using SL loss. The Joint Bayesian is used as the classifier for each network. Finally, we adopt the DC to fuse the three network. The three trained backbone networks can be found here (MS_Celeb_1M: ; VGGFace2: ; CASIA_WebFace: ). The learned features for each network can be found here (). The MDNDC model achieves rank-1 accuracy of 98.9 ± 0.3 and VR@FAR=0.1%(%) of 97.6 ± 0.4 on CASIA NIR-VIS 2.0, respectively. One can test the MDNDC model with Diversity_Combination.py. 
 
 # Requirements
-tensorflow 1.3.0 +
+tensorflow 1.3.0 + 
+
 cvxopt 1.2.0 
+
 scipy 1.0.0 
+
 scikit-learn 0.19.1 
 
 # Backbone network
