@@ -12,8 +12,11 @@ MDN network with DC fusion method: We first pre-train each backbone network in M
 The three trained backbone networks can be found here.
 
 MS_Celeb_1M: https://pan.baidu.com/s/1pfsUR6h3pk8r8AVCaQ1kpA  password: sruq
+
 VGGFace2: https://pan.baidu.com/s/1Vu_I9WZ9h6SnG28xGbec-w  password: aiwz
+
 CASIA_WebFace: https://pan.baidu.com/s/1PRvSxRAbMzngZdfUw93aUg  password: wmvd
+
 MDNDC learned features: https://pan.baidu.com/s/1lTI7NOjwgm9nPvo70K3afw  password: u72b
 
 # Requirements
