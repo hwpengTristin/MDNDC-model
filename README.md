@@ -1,6 +1,27 @@
 # MDNDC
 In this paper, we propose a novel method called Multiple Deep Networks with scatter loss and Diversity Combination (MDNDC) for solving HFR problem. Firstly, to reduce intra-class and increase inter-class variations, the Scatter Loss (SL) is used as objective function which can bridge the modality gap while preserving the identity information. Secondly, we design a Multiple Deep Networks (MDN) structure for feature extraction, and propose a joint decision strategy called Diversity Combination (DC) to adaptively adjust weights of each deep network and make a joint classification decision. Finally, instead of using only one publicly available dataset, we make full use of multiple datasets to train the networks, which can further improve HFR performance.
 
+# Usage
+## project list
+MDNDC_CASIA_NIR_VIS_2_0_one_testingFold_DC.py
+MDNDC_Oulu_CASIA_NIR_VIS_DC.py
+MDNDC_train_SLloss_CASIA_NIR_VIS.py
+MDNDC_train_SLloss_CASIA_NIR_VIS_test.py
+scatter_loss.py
+README.md
+NIR_VIS_DC_Joint_decision_CASIA_WebFace_single_feas.mat
+NIR_VIS_DC_Joint_decision_MS_Celeb_1M_single_feas.mat
+NIR_VIS_DC_Joint_decision_VGGFace2_single_feas.mat
+NIR_VIS_Oulu_DC_Joint_decision_CASIA_WebFace_single_feas.mat
+NIR_VIS_Oulu_DC_Joint_decision_MS_Celeb_1M_single_feas.mat
+NIR_VIS_Oulu_DC_Joint_decision_VGGFace2_single_feas.mat
+
+## Train a network using scatter loss
+One can train a network using SL loss with MDNDC_train_SLloss_CASIA_NIR_VIS.py
+
+## Test the DC method
+One can download the project, and run MDNDC_CASIA_NIR_VIS_2_0_one_testingFold_DC.py or MDNDC_Oulu_CASIA_NIR_VIS_DC.py 
+
 # The trained models
 ## The model trained using SL loss
 MS_Celeb_1M: We first pre-train the backbone network using MS_Celeb_1M dataset with softmax loss, and then fine-tune the network using CASIA NIR-VIS 2.0 dataset with SL loss. The Joint Bayesian is used as the classifier. The trained model can be found here (https://pan.baidu.com/s/1pfsUR6h3pk8r8AVCaQ1kpA  password: sruq). The network achieves rank-1 accuracy of 98.5 ± 0.3 and VR@FAR=0.1%(%) of 97.0 ± 0.5 on CASIA NIR-VIS 2.0, respectively.
