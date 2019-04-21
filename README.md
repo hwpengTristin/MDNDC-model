@@ -23,8 +23,11 @@ MDN network with DC fusion method: We first pre-train each backbone network usin
 The MDNDC model achieves rank-1 accuracy of 98.9 ± 0.3 and VR@FAR=0.1%(%) of 97.6 ± 0.4 on CASIA NIR-VIS 2.0. Note that we only give results of one of the testing fold on CASIA NIR-VIS 2.0. The learned features for each network on this testing fold can be found in the project:
 
 CASIA NIR-VIS 2.0:
+
 NIR_VIS_DC_Joint_decision_CASIA_WebFace_single_feas.mat
+
 NIR_VIS_DC_Joint_decision_MS_Celeb_1M_single_feas.mat
+
 NIR_VIS_DC_Joint_decision_VGGFace2_single_feas.mat
 
 One can test the MDNDC model on CASIA NIR-VIS 2.0 with MDNDC_CASIA_NIR_VIS_2_0_one_testingFold_DC.py. 
@@ -32,8 +35,11 @@ One can test the MDNDC model on CASIA NIR-VIS 2.0 with MDNDC_CASIA_NIR_VIS_2_0_o
 The MDNDC model achieves rank-1 accuracy of 99.8% and VR@FAR=0.1%(%) of 65.3% on Oulu-CASIA NIR-VIS. The learned features for each network on Oulu-CASIA NIR-VIS can be found in the project:
 
 Oulu-CASIA NIR-VIS:
+
 NIR_VIS_Oulu_DC_Joint_decision_CASIA_WebFace_single_feas.mat
+
 NIR_VIS_Oulu_DC_Joint_decision_MS_Celeb_1M_single_feas.mat
+
 NIR_VIS_Oulu_DC_Joint_decision_VGGFace2_single_feas.mat
 
 One can test the MDNDC model on Oulu-CASIA NIR-VIS with MDNDC_Oulu_CASIA_NIR_VIS_DC.py. 
