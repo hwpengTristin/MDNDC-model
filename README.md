@@ -80,6 +80,9 @@ The inception-resnet-v1 network structure can be found here (https://github.com/
 # Joint Bayesian classifier
 The Joint Bayesian classifier can be found here (http://jiansun.org/papers/ECCV12_BayesianFace.pdf).
 
+# Note
+Part of our code is based on Github's open source project (https://github.com/davidsandberg/facenet).
+
 # Reference
 [1] F. Schroff, D. Kalenichenko and J. Philbin, "Facenet: A unified embedding for face recognition and clustering," IEEE Conf. Computer Vision and Pattern Recognition, 2015, pp. 815-823.
 
