@@ -24,11 +24,11 @@ One can download the project, and run MDNDC_CASIA_NIR_VIS_2_0_one_testingFold_DC
 
 # The trained models
 ## The model trained using SL loss
-MS_Celeb_1M: We first pre-train the backbone network using MS_Celeb_1M dataset with softmax loss, and then fine-tune the network using CASIA NIR-VIS 2.0 dataset with SL loss. The Joint Bayesian is used as the classifier. The trained model can be found here (https://pan.baidu.com/s/1pfsUR6h3pk8r8AVCaQ1kpA  password: sruq). The network achieves rank-1 accuracy of 98.5 ± 0.3 and VR@FAR=0.1%(%) of 97.0 ± 0.5 on CASIA NIR-VIS 2.0, respectively.
+MS_Celeb_1M: We first pre-train the backbone network using MS_Celeb_1M dataset with softmax loss, and then fine-tune the network using CASIA NIR-VIS 2.0 dataset with SL loss. The Joint Bayesian is used as the classifier. The trained model (one of the tenfold) can be found here (https://pan.baidu.com/s/1pfsUR6h3pk8r8AVCaQ1kpA  password: sruq). The network achieves rank-1 accuracy of 98.5 ± 0.3 and VR@FAR=0.1%(%) of 97.0 ± 0.5 on CASIA NIR-VIS 2.0, respectively.
 
-VGGFace2: We first pre-train the backbone network using VGGFace2 dataset with softmax loss, and then fine-tune the network using CASIA NIR-VIS 2.0 dataset with SL loss. The Joint Bayesian is used as the classifier. The trained model can be found here (https://pan.baidu.com/s/1Vu_I9WZ9h6SnG28xGbec-w  password: aiwz). The network achieves rank-1 accuracy of 95.7 ± 0.5 and VR@FAR=0.1%(%) of 92.3 ± 0.8 on CASIA NIR-VIS 2.0, respectively.
+VGGFace2: We first pre-train the backbone network using VGGFace2 dataset with softmax loss, and then fine-tune the network using CASIA NIR-VIS 2.0 dataset with SL loss. The Joint Bayesian is used as the classifier. The trained model (one of the tenfold) can be found here (https://pan.baidu.com/s/1Vu_I9WZ9h6SnG28xGbec-w  password: aiwz). The network achieves rank-1 accuracy of 95.7 ± 0.5 and VR@FAR=0.1%(%) of 92.3 ± 0.8 on CASIA NIR-VIS 2.0, respectively.
  
-CASIA_WebFace: We first pre-train the backbone network using CASIA_WebFace dataset with softmax loss, and then fine-tune the network using CASIA NIR-VIS 2.0 dataset with SL loss. The Joint Bayesian is used as the classifier. The trained model can be found here (https://pan.baidu.com/s/1PRvSxRAbMzngZdfUw93aUg  password: wmvd). The network achieves rank-1 accuracy of 92.3 ± 0.7 and VR@FAR=0.1%(%) of 88.4 ± 1.1 on CASIA NIR-VIS 2.0, respectively.
+CASIA_WebFace: We first pre-train the backbone network using CASIA_WebFace dataset with softmax loss, and then fine-tune the network using CASIA NIR-VIS 2.0 dataset with SL loss. The Joint Bayesian is used as the classifier. The trained model (one of the tenfold) can be found here (https://pan.baidu.com/s/1PRvSxRAbMzngZdfUw93aUg  password: wmvd). The network achieves rank-1 accuracy of 92.3 ± 0.7 and VR@FAR=0.1%(%) of 88.4 ± 1.1 on CASIA NIR-VIS 2.0, respectively.
 
 The three trained backbone networks and the MDNDC learned feature can be found here.
 
